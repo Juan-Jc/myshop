@@ -46,3 +46,10 @@ Instalamos stimulus para js:
 ```shell
 composer require symfony/stimulus-bundle
 ```
+
+Creamos una migración y la ejecutamos:
+
+```shell
+symfony console make:migration
+symfony console doctrine:migrations:migrate
+```
